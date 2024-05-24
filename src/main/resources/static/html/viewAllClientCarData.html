@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Client Data by Date</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>View Client Data </h1>
+    <form action="/viewByClientPhone" method="get">
+        <label for="clientPhone">Enter Phone Number:</label>
+        <input type="text" id="clientPhone" name="clientPhone" required>
+        <button type="submit">View Data</button>
+    </form>
+    
+</body>
+</html>

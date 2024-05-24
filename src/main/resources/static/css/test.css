@@ -1,0 +1,67 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: rgba(17, 24, 39, 1); */
+  background-color: rgba(17, 24, 39, 1);
+}
+
+/* div {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  div {
+    flex-direction: column;
+  }
+} */
+
+/* div p {
+  padding: 15%;
+  background-color: rgb(28, 55, 108);
+  margin: 5px;
+} */
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 0rem;
+  font-weight: 700;
+  color: rgba(243, 244, 246, 1);
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 10px 0;
+  z-index: 999; /* Ensure navigation bar is above other content */
+}
+
+.card {
+  color: rgba(243, 244, 246, 1);
+  margin: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
